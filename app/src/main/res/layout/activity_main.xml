@@ -17,31 +17,37 @@
         android:text="@string/title" />
 
     <Button
+        android:id="@+id/spotify_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app1"/>
 
     <Button
+        android:id="@+id/scores_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app2"/>
 
     <Button
+        android:id="@+id/library_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app3"/>
 
     <Button
+        android:id="@+id/buildb_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app4"/>
 
     <Button
+        android:id="@+id/reader_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app5"/>
 
     <Button
+        android:id="@+id/my_app_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/app6"/>
