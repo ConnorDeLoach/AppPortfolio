@@ -20,60 +20,37 @@
     <Button
         android:id="@+id/spotify_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="lnchAppBtn"
         android:text="@string/app1" />
 
     <Button
         android:id="@+id/scores_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="lnchAppBtn"
         android:text="@string/app2" />
 
     <Button
         android:id="@+id/library_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="lnchAppBtn"
         android:text="@string/app3" />
 
     <Button
         android:id="@+id/buildb_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="lnchAppBtn"
         android:text="@string/app4" />
 
     <Button
         android:id="@+id/reader_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
         android:background="@color/colorPrimary"
-        android:onClick="lnchAppBtn"
         android:text="@string/app5" />
 
     <Button
         android:id="@+id/my_app_button"
         style="@style/Button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:background="@color/colorAccent"
-        android:onClick="lnchAppBtn"
         android:text="@string/app6"
         android:textColor="#FAFAFA" />
 </LinearLayout>
