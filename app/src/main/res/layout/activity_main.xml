@@ -1,56 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimaryDark"
-    android:orientation="vertical"
-    android:paddingBottom="24dp"
-    android:paddingTop="24dp"
+    android:background="@color/colorBackground"
     tools:context="comconnordeloachmy_app_portfolio.github.www.appportfolio.MainActivity">
 
-    <TextView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:gravity="center"
-        android:paddingBottom="16dp"
-        android:text="@string/title"
-        android:textSize="24sp" />
+        android:orientation="vertical"
+        android:paddingBottom="24dp"
+        android:paddingTop="24dp">
 
-    <Button
-        android:id="@+id/spotify_button"
-        style="@style/Button"
-        android:background="@color/colorPrimary"
-        android:text="@string/app1" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="@string/title"
+            android:textSize="24sp" />
 
-    <Button
-        android:id="@+id/scores_button"
-        style="@style/Button"
-        android:background="@color/colorPrimary"
-        android:text="@string/app2" />
+        <Button
+            android:id="@+id/spotify_button"
+            style="@style/Button"
+            android:background="@color/colorPrimary"
+            android:text="@string/app1" />
 
-    <Button
-        android:id="@+id/library_button"
-        style="@style/Button"
-        android:background="@color/colorPrimary"
-        android:text="@string/app3" />
+        <Button
+            android:id="@+id/scores_button"
+            style="@style/Button"
+            android:background="@color/colorPrimary"
+            android:text="@string/app2" />
 
-    <Button
-        android:id="@+id/buildb_button"
-        style="@style/Button"
-        android:background="@color/colorPrimary"
-        android:text="@string/app4" />
+        <Button
+            android:id="@+id/library_button"
+            style="@style/Button"
+            android:background="@color/colorPrimary"
+            android:text="@string/app3" />
 
-    <Button
-        android:id="@+id/reader_button"
-        style="@style/Button"
-        android:background="@color/colorPrimary"
-        android:text="@string/app5" />
+        <Button
+            android:id="@+id/buildb_button"
+            style="@style/Button"
+            android:background="@color/colorPrimary"
+            android:text="@string/app4" />
 
-    <Button
-        android:id="@+id/my_app_button"
-        style="@style/Button"
-        android:background="@color/colorAccent"
-        android:text="@string/app6"
-        android:textColor="#FAFAFA" />
-</LinearLayout>
+        <Button
+            android:id="@+id/reader_button"
+            style="@style/Button"
+            android:background="@color/colorPrimary"
+            android:text="@string/app5" />
+
+        <Button
+            android:id="@+id/my_app_button"
+            style="@style/Button"
+            android:background="@color/colorAccent"
+            android:text="@string/app6"
+            android:textColor="#FAFAFA" />
+    </LinearLayout>
+</ScrollView>
